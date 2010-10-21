@@ -70,6 +70,23 @@ function(){
 										  }
 									  }
 									  break;
+
+								  case 73: //'i' key to get pdf if exist
+									  if($("div[class='gs_r'] div[class^='gs_rt']  a[class^='yC']")[i]){
+										  var tmp = $("div[class^='gs_r'] div[class^='gs_rt'] a[class^='yC']")[i].href;
+										  if(tmp){
+											  //alert(tmp);
+											  var tmp_parent = $("a[href^=" +'"'+ tmp +'"'+ "]").parent().parent().parent().get(0);
+											  var ref = $(tmp_parent).children("span[class^='gs_ggs']").children("a[href$='.pdf']").get(0);
+									
+											  if(ref){
+												  var ref_url = ref.href;
+												  window.open(ref_url , "_self");
+											  }
+										  }
+									  }
+									  break;
+								  										  
 								  
 								  case 74: case 75: //'j' , 'k' keys to move forward and backward
 									  if(event.keyCode == 74){ d = 1; } //go forward link
