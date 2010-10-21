@@ -1,8 +1,25 @@
-j,k = move forward and backward
+name:Google Scholar Keyboard Shortcuts(GSKS) version 0.2
+author:Hisahiro Suganuma
+e-mail:suganuma@mlab.t.u-tokyo.ac.jp
+
+sorry , my english is too noncommittal.
+I do not secure any damages from using this script.
+
+
+Explanation:
+GSKS aims for enabling you to operate 'google scholar' only with keyboard.
+
+This script occupies the following keys.
+
+j , k = move forward or backward
 o , Enter = open link
 l = open reference link if exists
 i = open pdf link if exists
 [ = select paper title 
-n , p = move next or previous search result 
+n , p = move the next or previous search results
 . = focus search bar
 esc = unfocus search bar
+
+and, your search bar extends.
+
+Enjoy!
