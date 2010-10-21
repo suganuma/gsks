@@ -1,0 +1,8 @@
+j,k = move forward and backward
+o , Enter = open link
+l = open reference link if exists
+i = open pdf link if exists
+[ = select paper title 
+n , p = move next or previous search result 
+. = focus search bar
+esc = unfocus search bar
